@@ -44,11 +44,11 @@
 # print(square)
 
 # # QUESTION 6
-year = int(input("Enter a year: "))
-if (year%4 == 0 and year % 100 != 0) or (year%400 == 0):
-    print("Leap year",year)
-else:
-    print("Not Leap year",year)
+# year = int(input("Enter a year: "))
+# if (year%4 == 0 and year % 100 != 0) or (year%400 == 0):
+#     print("Leap year",year)
+# else:
+#     print("Not Leap year",year)
 
 # # QUESTION 7
 # a = float(input("Enter side 1: "))
@@ -76,8 +76,17 @@ else:
 #     print("Zero")
 
 # QUESTION 10
-
-
+# BMI = float(input("Enter body mass in index: "))
+# if BMI < 18.5:
+#     print("Underweight")
+# elif 18.5 <= BMI < 24.9:
+#     print("Normal Weight")
+# elif 25 <= BMI < 29.9:
+#     print("Overweight")
+# elif BMI >= 30:
+#     print("Obesity")
+# else:
+#     print("Invalid")
 
 # # QUESTION 11
 # day = int(input("Enter a number(1-7):"))
@@ -141,8 +150,8 @@ else:
 #     num = num // 10
 # print("Sum of the digits: ",digit_sum)
 
-# # QUESTION 19
-# num = int(input("Enter a number"))
+# QUESTION 19
+# n = int(input("Enter a number: "))
 # for i in range(1, n+1):
 #     if i % 2 == 0:
 #         print(i)
@@ -156,10 +165,22 @@ else:
 # print("Total lenght of list: ", len(lis))
 # print("Total occurance of 25 in the list: ",lis.count(25))
 # print("Traverse of each element: ")
+# for i in lis:
+#     print(i)
 # print("Show all even element: ")
 # for i in lis:
 #     if i % 2 == 0:
 #         print(i)
+
+# QUESTION21 
+# user = input("Enter input a string of min 10 words and max 19 words: ")
+# if len(user) > 10 and len(user) <= 19:
+#     print("Here is your input string")
+# else:
+#     print("Add more string character")
+# print("Full String: ",user)
+# print("Lenght of String: ",len(user))
+# print("Second last word in the string: ",user[2])
 
 
 # QUESTION 22
@@ -186,9 +207,9 @@ else:
 # x = ["abc","xyz","aba","1221"]
 # count = 0
 # for i in x:
-#     if len(i) >=2:
+#     if len(i) >=2 and i[0] == i[3]:
 #         count = count + 1
-# print(count)
+# print("Number of string: ",count)
 
 
 
