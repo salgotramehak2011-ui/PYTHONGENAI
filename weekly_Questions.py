@@ -173,14 +173,21 @@
 #         print(i)
 
 # QUESTION21 
-# user = input("Enter input a string of min 10 words and max 19 words: ")
-# if len(user) > 10 and len(user) <= 19:
-#     print("Here is your input string")
+# str2=input("enter string min 10 words and max 19 words: ")
+# count_str2=len(str2)
+# if 10 <= count_str2 <=19:
+#     print(str2)
+#     print(len(str2))
 # else:
-#     print("Add more string character")
-# print("Full String: ",user)
-# print("Lenght of String: ",len(user))
-# print("Second last word in the string: ",user[2])
+#     print("not")
+# if str2 == str2[::-1]:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+# print("Second last word in string: ",str2[-2])
+# middle=count_str2//2
+# print("Middle word in string: ",middle)
+
 
 
 # QUESTION 22
@@ -207,7 +214,7 @@
 # x = ["abc","xyz","aba","1221"]
 # count = 0
 # for i in x:
-#     if len(i) >=2 and i[0] == i[3]:
+#     if len(i) >=2 and i[0] == i[-1]:
 #         count = count + 1
 # print("Number of string: ",count)
 
