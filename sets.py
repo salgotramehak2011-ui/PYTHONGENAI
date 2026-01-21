@@ -22,14 +22,22 @@
 # s.add("e")
 # print(s)
 
-marketing_user= {"Photoshop","Slack","Zoom","Canva","Trello"}
-sales_user= {"Salesforce","Slack","Zoom","Linkdin","HubSpot"}
-both_dep = marketing_user.union(sales_user)
-print("Both Department: ",both_dep)
-unq_dep = marketing_user.intersection(sales_user)
-print("All Unique Department: ",unq_dep)
-exe_dep = marketing_user.difference(sales_user)
-print("Exclusive Department: ",exe_dep)
-eir_dep = marketing_user.symmetric_difference(sales_user)
-print("Either  Department: ",exe_dep)
+# marketing_user= {"Photoshop","Slack","Zoom","Canva","Trello"}
+# sales_user= {"Salesforce","Slack","Zoom","Linkdin","HubSpot"}
+# both_dep = marketing_user.union(sales_user)
+# print("Both Department: ",both_dep)
+# unq_dep = marketing_user.intersection(sales_user)
+# print("All Unique Department: ",unq_dep)
+# exe_dep = marketing_user.difference(sales_user)
+# print("Exclusive Department: ",exe_dep)
+# eir_dep = marketing_user.symmetric_difference(sales_user)
+# print("Either  Department: ",exe_dep)
+
+
+
+n = int(input("Enter a number: "))
+fact = 1
+for i in range(1,n+1):
+    fact = fact * i
+print(fact)
 
