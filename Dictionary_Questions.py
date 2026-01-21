@@ -1,13 +1,13 @@
 # QUESTION 1
-# sen = input("Enter sentence: ")
-# words = sen.lower().split()
-# freq_word = {}
-# for i in words:
-#     if i in freq_word:
-#         freq_word[i] +=1
-#     else:
-#         freq_word[i] = 1
-# print(freq_word)
+sen = input("Enter sentence: ")
+words = sen.lower().split()
+freq_word = {}
+for i in words:
+    if i in freq_word:
+        freq_word[i] +=1
+    else:
+        freq_word[i] = 1
+print(freq_word)
 
 # QUESTION 2
 # dic = {
