@@ -1,23 +1,17 @@
 # QUESTION 1
-sen = input("Enter sentence: ")
-words = sen.lower().split()
-freq_word = {}
-for i in words:
-    if i in freq_word:
-        freq_word[i] +=1
-    else:
-        freq_word[i] = 1
-print(freq_word)
+# sen = "python is easy and python is very easy"
+# words = sen.split()
+# freq_word = {}
+# for i in words:
+#     if i in freq_word:
+#         freq_word[i] +=1
+#     else:
+#         freq_word[i] = 1
+# sorted_freq = dict(sorted(freq_word.items(),reverse = True ,key = lambda x: x[1]))
+# print(sorted_freq)
+
 
 # QUESTION 2
-# dic = {
-#     "Shiv":12,
-#     "Roopali":14,
-#     "Danshu": 15
-#     }
-# print(dic)
-
-# QUESTION 3
 # dic = {
 #     "Shiv":12,
 #     "Roopali":14,
@@ -32,7 +26,7 @@ print(freq_word)
 #     if marks > avg:
 #         print(name)
 
-# QUESTION 4
+# QUESTION 3
 # dic1 ={
 #     "a":50,
 #     "b":30,
@@ -49,7 +43,7 @@ print(freq_word)
 #         merge_dic[key] = value
 # print(merge_dic)
 
-# QUESTION 5
+# QUESTION 4
 # dic ={
 #     "name":"Alice",
 #     "city":"banglore",
@@ -58,7 +52,7 @@ print(freq_word)
 # max_key = max(dic, key = lambda k: len(dic[k]))
 # print(max_key)
 
-# QUESTION 6
+# QUESTION 5
 # dic = {
 #     "a":5,
 #     "b":15,
@@ -73,7 +67,7 @@ print(freq_word)
 #         filter_dic[key] = value
 # print(filter_dic)
 
-# QUESTION 7
+# QUESTION 6
 # votes = {}
 # n = int(input("Enter number of voters: "))
 # for i in range(n):
@@ -86,7 +80,7 @@ print(freq_word)
 # win = max(votes, key=votes.get)
 # print("Winner is: ",win)
 
-# QUESTION 8
+# QUESTION 7
 # dic1 ={
 #     "a":10,
 #     "b":20,
@@ -102,7 +96,7 @@ print(freq_word)
 #         dic1[key] = dic2[key]
 # print("Updated Dictionary: ",dic1)
 
-# QUESTION 9
+# QUESTION 8
 # data = {"a":10,"b":20,"c":30}
 # update = {"b":200,"c":300}
 # for key in data:
