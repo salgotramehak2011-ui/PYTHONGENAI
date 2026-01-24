@@ -128,6 +128,54 @@
 # dic.update({"course":"English","marks":70})
 # print(dic)
 
-data = {"a":10,"b":20,"c":30}
-data.pop("b")
-print(data)
+# data = {"a":10,"b":20,"c":30}
+# data.pop("b")
+# print(data)
+
+#==================================================
+
+# Dictionary with user input 
+# std1 = {}
+# std1["name"] = input("Enter name: ")
+# std1["age"] = int(input("Enter age: "))
+# std1["course"] = input("Enter course: ")
+# print(std1)
+
+
+# Dictionary inside dictionary
+# std = {
+#     "101": {"name": "Mehak", "marks": 20},
+#     "102": {"name": "Roohi", "marks": 18},
+# }
+# print(std["101"]["name"])
+
+# copy a dictionary
+# a = {"x": 10}
+# b = a.copy()
+# print(b)
+
+# a = {"x": 10}
+# b = a.copy()
+# b["x"] = 20
+# print(a)
+# print(b)
+
+# clear entire dictionary
+# name = {"name": " Mehak", "age":20}
+# name.clear()
+# print(name)
+
+# CONVERT  LIST TO DICTIONARY
+# keys = ["name","age","marks"]
+# values = ["Mehak",20,30]
+# std = dict(zip(keys,values))
+# print(std)
+
+dic = {
+    "name": "Mehak",
+    "age": 20,
+    "marks": 36
+}
+dic.update({"course":"cse"})
+dic.pop("marks")
+print(dic)
