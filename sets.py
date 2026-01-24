@@ -35,9 +35,44 @@
 
 
 
-n = int(input("Enter a number: "))
-fact = 1
-for i in range(1,n+1):
-    fact = fact * i
-print(fact)
+# n = int(input("Enter a number: "))
+# fact = 1
+# for i in range(1,n+1):
+#     fact = fact * i
+# print(fact)
+# setA = {1,2,3,4,5}
+# setG = {1,2}
+# is_subset = setG.issubset(setA)
+# print(is_subset)# true or false
+# is_superset = setA.issuperset(setG)
+# print(is_superset)
+# setH = {9,3}
+# is_disjoint = setA.isdisjoint(setH)
+# print(is_disjoint)
 
+
+
+
+
+#=============================================================
+#=============================================================
+# def sumRet(*a):
+#     print(a)
+#     sum = 0
+#     for i in a:
+#         sum = sum + i
+#     return sum
+# print(sumRet(45,56,48))
+# print((sumRet99,100,89,90))
+# print(sumRet(45,56))
+
+
+# def sumRet (**a):
+#     print(a)
+#     sum = 0
+#     for i in a.values():
+#         sum = sum + i
+#     return sum
+# print(sumRet(a = 45,b = 56,c= 48))
+# print(sumRet(a = 99,b = 100,c = 89,d = 90))
+# print(sumRet(a = 45,b = 56))
