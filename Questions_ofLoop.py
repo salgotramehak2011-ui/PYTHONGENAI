@@ -10,16 +10,16 @@
 # sum = 0
 # for i in range(1,n+1):
 #     sum += i
-#     print(sum)
+# print(sum)
+
+
+# print the multiplication table
+# n = int(input("Enter a number: "))
+# for i in range(1,11):
+#     print(n,"X",i,"=",n*i)
 
 
 # WAP to check whether a given number number is prime or not
-num = int(input("Enter a number: "))
-if num%2 != 0:
-    print("prime number")
-else:
-    print(" not a prime number")
-
 # n = int(input("Enter a number: "))
 # print(n**0.5)
 # if n<=1:
@@ -32,14 +32,13 @@ else:
 # print(prime)
 
 
-
 # check whether a number is a palindrome;output:1221
-
 # palin = input("Enter the palindrome: ")
-# print(len(palin))
-#     print(i)
+# if palin == palin[::-1]:
+#     print("Palindrome Number")
+# else:
+#     print("Not a Palindrome Number")
  
-
 
 
 # print number from 1 to 100:
