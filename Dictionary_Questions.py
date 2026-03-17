@@ -11,10 +11,10 @@
 #     "Shiv":12,
 #     "Roopali":14,
 #     "Danshu": 15
-#     }
+#     } 
 # total = sum(marks.values())
 # avg = total/len(marks)
-# print("Average marks: ",avg)
+# print("Average marks: ",avg) 
 # print("Students scoring marks:")
 # for i in marks:
 #     if marks[i] > avg:

@@ -44,6 +44,10 @@
 # com = [i for i in list_a for j in list_b if i == j]
 # print("Common number: ",com)
 
+# "odd","even"
+# num = ["even" if i%2 == 0 else "odd" for i in range(0,20)]
+# print(num)
+
 
  
 
