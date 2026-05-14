@@ -6,7 +6,6 @@ load_dotenv()
 st.header("Hugging Face ChatBOT")
 
 
-
 llm = HuggingFaceEndpoint(
     repo_id="meta-llama/Llama-3.3-70B-Instruct:sambanova",
     task="text-generation",
