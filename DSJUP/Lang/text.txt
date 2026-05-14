@@ -1,0 +1,1 @@
+RAG is a hybrid architecture that augments a large language model’s (LLM) text generation capabilities by retrieving and integrating relevant external information from documents, databases or knowledge bases.

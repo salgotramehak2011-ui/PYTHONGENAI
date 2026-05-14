@@ -13,6 +13,7 @@ df.drop_duplicates(inplace=True)
 # st.write(df.shape)
 # st.write(df)
 
+
 res_index= df.loc[:,'Restaurant_Name',].value_counts().index
 # st.write(res_index)
 
