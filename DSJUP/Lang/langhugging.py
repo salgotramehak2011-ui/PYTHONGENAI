@@ -3,9 +3,7 @@ from dotenv import load_dotenv
 import streamlit as st 
 load_dotenv()
 # import os
-st.header("Hugging Face ChatBOT")
-
-
+st.header("Hugging Face ChatBOT")   
 llm = HuggingFaceEndpoint(
     repo_id="meta-llama/Llama-3.3-70B-Instruct:sambanova",
     task="text-generation",
